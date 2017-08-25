@@ -32,7 +32,7 @@ Role Variables
 ---
 ansible_playbook_version: 0.1
 zookeeper_playbook_version: "0.9.2"
-zookeeper_version: 3.4.6
+zookeeper_version: 3.4.10
 zookeeper_url: http://www.us.apache.org/dist/zookeeper/zookeeper-{{zookeeper_version}}/zookeeper-{{zookeeper_version}}.tar.gz
 
 # Flag that selects if systemd or upstart will be used for the init service:
