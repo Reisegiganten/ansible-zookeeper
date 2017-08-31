@@ -1,5 +1,6 @@
 ---
 
+- include: tasks_java.yml
 - include: Debian.yml
   when: ansible_os_family == 'Debian' and zookeeper_debian_apt_install
 
