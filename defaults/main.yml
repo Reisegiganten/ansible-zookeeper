@@ -30,5 +30,5 @@ zookeeper_hosts:
 
 # Dict of ENV settings to be written into the (optional) conf/zookeeper-env.sh
 zookeeper_env: {}
-java_version: 8
+java_version: 10
 option_install_java: false
